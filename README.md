@@ -1,4 +1,4 @@
-# productos_gourmet_la_hacienda
+# La Hacienda Productos Gourmet
 
 Sitio web para la presentación y venta de productos gourmet, diseñado con React y enfocado en escalabilidad, estética profesional y experiencia de usuario.
 
