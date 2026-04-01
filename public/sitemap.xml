@@ -1,0 +1,25 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página principal -->
+  <url>
+    <loc>https://productos-gourmet-la-hacienda.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Página de productos -->
+  <url>
+    <loc>https://productos-gourmet-la-hacienda.vercel.app/productos</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Página acerca -->
+  <url>
+    <loc>https://productos-gourmet-la-hacienda.vercel.app/acerca</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página de contactos -->
+  <url>
+    <loc>https://productos-gourmet-la-hacienda.vercel.app/contactos</loc>
+    <priority>0.7</priority>
+  </url>
+</urlset>
