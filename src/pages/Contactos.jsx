@@ -42,7 +42,7 @@ function Contactos({searchTerm}) {
       <div className={styles.mapa}>
         <h2>{highlightText("Nuestra ubicación en el mapa")}</h2>
        <iframe
-         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d230.9016588052143!2d-89.19970583504413!3d13.711202448963073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2ssv!4v1773810534555!5m2!1ses-419!2ssv"
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369.44136213811174!2d-89.20009353289406!3d13.71111997441525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63310050069437%3A0x9d5430ec5119b745!2sLa%20Hacienda%20Productos%20Gourmet!5e1!3m2!1ses!2ssv!4v1775026128304!5m2!1ses!2ssv" 
          width="600"
          height="450"
          style={{ border: 0 }}

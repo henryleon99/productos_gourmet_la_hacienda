@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import styles from "../styles/Navbar.module.css";
 import { useState } from "react";
 
-function Navbar({ darkMode, toggleTheme, onSearch }) {
+function Navbar({ onSearch }) {
   const [query, setQuery] = useState("");
   const navigate = useNavigate();
 
@@ -13,7 +13,7 @@ function Navbar({ darkMode, toggleTheme, onSearch }) {
 
   // Palabras clave por ruta (incluye variantes)
   const keywords = {
-    "/home": ["Bienvenida", "Origen", "Nuestra"],
+    "/": ["Bienvenida", "Origen", "Nuestra"],
     "/acerca": ["acerca", "mision", "vision", "valores"],
     "/productos": ["producto", "productos", "gourmet"],
     "/contactos": ["contacto", "informacion", "formulario", "mapa", "contactos", "telefono", "correo"],
