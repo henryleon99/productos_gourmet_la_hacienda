@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Salsa Albahaca, con ajo y cilantro",
+    "volume": "380 mL",
+    "price": "1.75$",
+    "description": "Una salsa versátil y deliciosa, elaborada con ingredientes frescos cuidadosamente seleccionados para realzar el sabor de cada preparación. Su combinación de albahaca, ajo y cilantro aporta un toque aromático y auténtico que transforma carnes, pollo y mariscos en platillos irresistibles. Ideal para quienes buscan darle a sus recetas un carácter gourmet sin complicaciones, esta salsa convierte cada comida en una experiencia única, llena de sabor y tradición.",
+    "utilization": "Utilízala para marinar carnes, sazonar pollo o realzar el sabor de mariscos. También es ideal para aderezar ensaladas o como acompañante de pastas.",
+    "image": "/images/Albahaca.png"
+  },
+  {
+    "id": 2,
+    "name": "Salsa Parrillera, sazonada con ajo",
+    "volume": "380 mL",
+    "price": "1.75$",
+    "description": "Una salsa auténtica y llena de carácter, elaborada con ajo sazonado y especias seleccionadas para resaltar el sabor de cada preparación a la parrilla. Su perfil intenso y aromático convierte cortes de carne, pollo y embutidos en platillos irresistibles, aportando ese toque tradicional que todo buen asado necesita. Ideal para quienes buscan darle a sus recetas un sabor robusto y casero sin complicaciones, esta salsa transforma cada parrillada en una experiencia única, llena de sabor y tradición.",
+    "utilization": "Utilízala para marinar carnes antes de asarlas, sazonar pollo o acompañar embutidos en la parrilla. También es ideal para pincelar costillas recién cocinadas o como complemento en hamburguesas y sándwiches.",
+    "image": "/images/Parrillera.png"
+  },
+  {
+    "id": 3,
+    "name": "Salsa Marinadora, sazón completa",
+    "volume": "300 mL",
+    "price": "1.75$",
+    "description": "Una salsa práctica y llena de sabor, elaborada con una mezcla completa de especias y condimentos que realzan cualquier preparación. Su combinación equilibrada aporta un carácter aromático y profundo que transforma carnes, pollo y mariscos en platillos irresistibles. Ideal para quienes buscan un toque casero y gourmet sin complicaciones, esta salsa convierte cada receta en una experiencia única, llena de tradición y autenticidad.",
+    "utilization": "Utilízala para marinar carnes antes de cocinarlas, sazonar pollo o potenciar el sabor de mariscos. También es ideal para preparar guisos, aderezar vegetales o como base para salsas más elaboradas.",
+    "image": "/images/MarinadorCompleto.png"
+  },
+  {
+    "id": 4,
+    "name": "Salsa La Hacienda, sazonada con ajo y especias",
+    "volume": "350 mL",
+    "price": "2.50$",
+    "description": "Una salsa tradicional y llena de sabor, elaborada con ajo y una selección especial de especias que evocan el auténtico espíritu de la cocina casera. Su perfil aromático y robusto realza carnes, pollo y mariscos, convirtiendo cada preparación en un platillo irresistible. Ideal para quienes buscan darle a sus recetas un carácter único y lleno de tradición, esta salsa aporta ese toque especial que transforma cualquier comida en una experiencia memorable.",
+    "utilization": "Utilízala para marinar carnes antes de cocinarlas o sazonar pollo. Es un muy buen acompañante en parrilladas.",
+    "image": "/images/LaHacienda.png"
+  },
+  {
+    "id": 5,
+    "name": "Salsa Italiana",
+    "volume": "380 mL",
+    "price": "2.50$",
+    "description": "Una salsa inspirada en la tradición culinaria italiana, elaborada con hierbas aromáticas y especias seleccionadas para realzar el sabor de las carnes. Su combinación equilibrada aporta un carácter intenso y gourmet que transforma cada corte en una experiencia única. Pensada exclusivamente para acompañar carnes, esta salsa brinda un toque auténtico y sofisticado que convierte cada preparación en un platillo irresistible, lleno de sabor y tradición.",
+    "utilization": "Utilízala para marinar carnes antes de cocinarlas, sazonar cortes a la parrilla o realzar el sabor de carnes al horno. También es ideal para pincelar filetes recién preparados, aportando un acabado aromático y jugoso que resalta la esencia de la cocina italiana.",
+    "image": "/images/Italiana.png"
+  }
+]

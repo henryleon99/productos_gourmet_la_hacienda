@@ -1,0 +1,23 @@
+produtos-gourmet-la-hacienda/
+|--public/
+│   └── index.html              # HTML base con <div id="root"></div>
+├── src/
+│   ├── App.js                 # Componente principal con las rutas
+│   ├── index.js                # Punto de entrada de la aplicación
+│   ├── pages/                  # Páginas principales
+│   │   ├── Home.jsx
+│   │   ├── Productos.jsx
+│   │   ├── Acerca.jsx
+│   │   └── Contactos.jsx
+│   ├── components/             # Componentes reutilizables
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   └── Navbar.jsx
+│   ├── styles/                 # Estilos CSS o módulos
+│   │   ├── App.css
+│   │   ├── Home.css
+│   │   └── Productos.css
+│   └── assets/                 # Imágenes, íconos, fuentes
+├── package.json                # Dependencias y scripts
+└── node_modules/               # Librerías instaladas
+

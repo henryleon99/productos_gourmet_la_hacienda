@@ -1,0 +1,96 @@
+/* Carrusel*/
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto 4rem auto;
+  width: 100%;
+  /* Limita el tamaño en PC para que se vea gourmet y no gigante */
+  max-width: 800px; 
+}
+
+.slide {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide img {
+  width: 100%;
+  /* Mantiene la proporción 16:9 de las imágenes horizontales */
+  aspect-ratio: 16 / 9; 
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.slide figcaption {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #6b2d1f;
+  text-align: center;
+}
+
+/* Flechas de navegación */
+.arrow {
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: #6b2d1f;
+  cursor: pointer;
+  padding: 0 1.5rem;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow:hover {
+  color: #a63f2d;
+  transform: scale(1.2);
+}
+
+/* Mediaqueries para telefono movil*/
+@media (max-width: 768px) {
+ 
+  .carousel {
+    max-width: 100%;
+    margin-bottom: 2.5rem;
+  }
+
+  .slide img {
+    /* proporción para que ocupe más pantalla verticalmente en móvil */
+    aspect-ratio: 4 / 3; 
+    max-height: 350px;
+    border-radius: 8px;
+  }
+
+  
+  /*flechas sobre la imagen en móviles para ganar espacio */
+  .arrow {
+    position: absolute;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 2rem;
+    padding: 0;
+  }
+
+  .arrow:first-of-type {
+    left: 10px;
+  }
+
+  .arrow:last-of-type {
+    right: 10px;
+  }
+}

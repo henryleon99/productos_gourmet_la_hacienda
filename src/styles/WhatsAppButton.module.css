@@ -1,0 +1,37 @@
+/*Estilos del boton de whatsApp*/
+
+.whatsappBtn {
+  background-color: #25D366; /* verde oficial de WhatsApp */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.whatsappBtn:hover {
+  background-color: #8db400; /* tono más oscuro al pasar el mouse */
+  transform: scale(1.05); /* efecto de zoom suave */
+}
+
+.whatsappFloating {
+  position: fixed;
+  bottom: 20px;   /* distancia desde el borde inferior */
+  right: 20px;    /* distancia desde el borde derecho */
+  z-index: 1000;  /* asegura que quede encima de otros elementos */
+}
+
+/* Animación para que el boton cambie de tamaño constantemente */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+.whatsappBtn {
+  animation: pulse 2s infinite;
+}
+

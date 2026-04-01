@@ -1,0 +1,32 @@
+
+/* Estilo de la header  */
+.logoSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoContainer img {
+  height: 60px;
+  border-radius: 6px;
+}
+
+.searchContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.searchBar {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.searchButton{
+  width: 20px;
+  color: red;
+}

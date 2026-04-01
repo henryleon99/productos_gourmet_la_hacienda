@@ -1,0 +1,94 @@
+/* Estilos generales */
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fdfdfd;
+}
+
+
+/*Secciones de contenido */
+.productWelcome,
+.productHistory,
+.productDescription,
+.distribution {
+  margin-top: 2rem;
+  padding: 2.5rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eee;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #6b2d1f;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1.2rem;
+  text-align: justify;
+}
+
+strong {
+  color: #a63f2d;
+}
+
+/* Botones */
+.btnPrimary {
+  display: inline-block;
+  background-color: #a63f2d;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 1rem;
+}
+
+.btnPrimary:hover {
+  background-color: #872f22;
+  transform: translateY(-2px);
+}
+
+.productDescription nav {
+  text-align: center;
+}
+
+/* Dirección */
+address {
+  font-style: normal;
+  font-weight: 600;
+  color: #6b2d1f;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Mediaqueries para telefono movil*/
+@media (max-width: 768px) {
+  .home {
+    padding: 1rem;
+  }
+
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .productWelcome,
+  .productHistory,
+  .productDescription,
+  .distribution {
+    padding: 1.5rem;
+  }
+
+}

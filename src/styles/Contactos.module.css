@@ -1,0 +1,97 @@
+/*Estilos de la pestaña contactos*/
+.contactos {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+ line-height: 1.6;
+  color: #000000;
+  background-color: #ffffff; /* fondo claro para resaltar la sombra */
+  border-radius: 10px;     /* esquinas redondeadas */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
+}
+
+.contactos h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #8B0000;
+  text-align: center;
+}
+
+.contactos h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #A0522D;
+}
+
+.contactos p {
+  margin-bottom: 1rem;
+}
+
+.mapa {
+  text-align: center; 
+  margin: 20px 0;          
+}
+
+.mapa iframe {
+  max-width: 100%; /* para que se ajuste en móviles */
+}
+
+
+
+.contactForm {
+  background-color: #c03030;              /* fondo claro */
+  padding: 1rem;
+  border-radius: 8px;                  /* esquinas redondeadas */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* sombra suave */
+  max-width: 600px;
+  margin: 2rem auto;                   /* centrado */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;                           /* espacio entre campos */
+}
+
+.contactForm label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #6b2d1f;                      /* tono cálido gourmet */
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #a63f2d;               /* resalta con el color gourmet */
+  box-shadow: 0 0 6px rgba(166, 63, 45, 0.3);
+  outline: none;
+}
+
+.contactForm textarea {
+  min-height: 120px;
+  resize: vertical;                    /* permite ajustar altura */
+}
+
+.contactForm button {
+  background-color: #a63f2d;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactForm button:hover {
+  background-color: #872f22;           /* tono más oscuro al pasar el mouse */
+}

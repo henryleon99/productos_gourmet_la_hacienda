@@ -1,0 +1,49 @@
+/* Estilo de la pestaña Acerca de*/
+
+.acerca {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+ line-height: 1.6;
+  color: #000000;
+  background-color: #ffffff; /* fondo claro para resaltar la sombra */
+  border-radius: 10px;     /* esquinas redondeadas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* sombra suave */
+}
+
+.acerca h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #8B0000;
+  text-align: center;
+}
+
+.acerca h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #A0522D;
+}
+
+.acerca p {
+  margin-bottom: 1rem;
+}
+
+.acerca ul {
+  list-style: none;
+  padding: 0;
+}
+
+.acerca li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.acerca li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #000000;
+  font-weight: bold;
+}

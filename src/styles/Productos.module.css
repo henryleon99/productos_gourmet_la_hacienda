@@ -1,0 +1,98 @@
+/* Estilos de la pestña products */
+.productsSection {
+  padding: 4rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* --- Grid de productos (Escritorio) --- */
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas en PC */
+  gap: 3rem; 
+  
+}
+
+/* --- Tarjeta de producto --- */
+.productCard {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productCard:hover {
+  /* He ajustado a 1.03 para que resalte hacia adelante, 
+     pero puedes volver a 0.9 si prefieres que se aleje */
+  transform: scale(1.03); 
+}
+
+/* --- Imagen del producto --- */
+.productImage {
+  width: 40%; /* Un poco más grande para PC que el 30% previo */
+  height: auto;
+  aspect-ratio: 4/6;
+  margin: 1.5rem auto 0 auto;
+  display: block;
+  object-fit: contain; /* 'contain' evita que la botella se corte */
+}
+
+.productInfo {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* --- Botón Ver Más --- */
+.viewMore {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background-color: #222;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.viewMore:hover {
+  background-color: #444;
+}
+
+/* --- Responsivo para móviles --- */
+@media (max-width: 768px) {
+  .productsSection {
+    padding: 1rem;
+  }
+
+  .productsGrid {
+    grid-template-columns: 1fr; /* Una sola columna */
+    gap: 2.5rem;
+  }
+
+  .productCard {
+    margin: 0 auto;
+    width: 95%; /* Aprovecha el ancho del dispositivo */
+  }
+
+  .productImage {
+    width: 60%; /* La botella se ve más grande y clara en el celular */
+    margin-top: 1rem;
+  }
+
+  .productInfo {
+    padding: 1rem;
+  }
+
+  /* Opcional: Acortar descripción si es muy larga en móvil */
+  .productInfo p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+}

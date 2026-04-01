@@ -1,0 +1,157 @@
+
+/* Estilos de la barra de navegacion */
+.header {
+  background-color: #ba0808;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.logoSearch {
+  display: flex;
+  flex-direction: column; /* Apilado en vertical para móviles */
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.logoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo {
+  height: 50px; /* Tamaño más manejable en móvil */
+  width: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+
+.searchContainer {
+  display: flex;
+  width: 100%; /* Ocupa todo el ancho en móvil */
+  max-width: 500px;
+}
+
+
+.searchBar {
+  flex: 1; /* El input crece todo lo posible */
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px; /* Estilo redondeado moderno */
+  font-size: 1rem;
+  outline: none;
+}
+
+
+.searchButton {
+  padding: 0.6rem 1.2rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+
+.searchButton:hover {
+  background-color: #e2e6ea;
+}
+
+
+.navbarList {
+  display: flex;
+  flex-wrap: wrap; /* Si son muchos links, saltan de línea en vez de romperse */
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+
+.link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.9rem;
+  white-space: nowrap; /* Evita que el texto del link se parta en dos */
+}
+
+
+/* --- Tablets (768px a 1024px) --- */
+@media (min-width: 768px) {
+  .logoSearch {
+    flex-direction: row; /* En tablet ya caben uno al lado del otro */
+    justify-content: space-between;
+  }
+
+
+  .logo {
+    height: 60px;
+  }
+
+
+  .searchContainer {
+    width: 60%; /* No necesita el 100% en tablets */
+  }
+
+
+  .navbarList {
+    justify-content: space-around;
+    gap: 20px;
+  }
+}
+
+
+/* --- Laptop / Desktop (> 1024px) --- */
+@media (min-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+  }
+
+
+  .logoSearch {
+    margin-bottom: 0;
+    flex: 1;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+
+  .searchContainer {
+    max-width: 350px;
+  }
+
+
+  .navbar {
+    flex: 1;
+  }
+
+
+  .navbarList {
+    justify-content: flex-end;
+    gap: 25px;
+  }
+
+
+  .link {
+    font-size: 1rem;
+  }
+}
+
