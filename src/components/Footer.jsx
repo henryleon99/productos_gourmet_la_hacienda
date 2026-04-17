@@ -13,7 +13,7 @@ function Footer() {
         <h3>La Hacienda Gourmet</h3>
         <p>Sabores únicos, calidad artesanal</p>
         <p>📍 Nuestra ubicación: <br></br> 23 Calle pte. Colonia Laico #1037, San Salvador, El Salvador</p>
-        <p>📞 Nuestro numero de contacto: <br></br> +503 1234-5678</p>
+        <p>📞 Nuestro numero de contacto: <br></br> +503 6109-9113</p>
         <p>✉️ Correo electronico: <br></br> urquilla_aviles@hotmail.com</p>
       </div>
 
